@@ -1,6 +1,12 @@
+import './Banner.css'
 function Banner() {
-  return (
-    <img src="/imagens/header-background.png" alt="fundo preto"/>
+  return(
+      <>
+    <div className="banner">
+      <img src="/imagens/BannerBackground.png" alt="Banner da videoFlix"/>
+    </div>
+      
+      </>
   )
 }
 export default Banner

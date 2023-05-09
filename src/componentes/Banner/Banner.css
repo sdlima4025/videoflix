@@ -1,7 +1,28 @@
 .banner {
-background: rgba(0, 0, 0, 0.59);
-text-align: center;
+  background-color: #000031;
+  text-align: center;
 }
 .banner img {
-  max-width: 100%;
+max-width: 100%;
+
+}
+h1 {
+  position: absolute;
+left: 0%;
+right: 10%;
+top: 0%;
+bottom: 0%;
+
+/* @title-big */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --color-gray-light */
+color: #F5F5F5;
 }

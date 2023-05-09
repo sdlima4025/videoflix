@@ -1,10 +1,11 @@
+import Botao from "../Botao";
 import "./Header.css";
 function Header() {
   return (
     <>
       <header className="header">
         <img src="/imagens/coffeFlix.png" alt="fundo preto" />
-        <button className="botao">Novo vídeo</button>
+        <Botao>Novo Vídeo</Botao>
       </header>
     </>
   );

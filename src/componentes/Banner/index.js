@@ -3,7 +3,7 @@ import "./Banner.css";
 function Banner() {
   return (
     <>
-      <div className="banner">
+      <div className="banner" >
         <button className="banner-titulo">Front End</button>
         <h2 className="sub-titulo">SEO com React</h2>
         <p className="banner-paragrafo">
@@ -17,7 +17,8 @@ function Banner() {
           alt="Banner da coffeflix"
         />
         <Player />
-      </div>
+        </div>
+     
     </>
   );
 }
